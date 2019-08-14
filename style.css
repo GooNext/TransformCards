@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgba(237, 150, 0, 1);
+}
+.container {
+	display: flex;
+	margin: 250px;
+}
+.card-item {
+	width:250px;
+	height: 250px;
+	background-color: white;
+	margin-left: 50px;
+	transition: 0.5s
+}
+.card {
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
